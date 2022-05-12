@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Model.Models
 {
-    public partial class LTTH : IdentityDbContext
+    public partial class LTTH :DbContext
     {
         public LTTH()
             : base("name=LTTH")
